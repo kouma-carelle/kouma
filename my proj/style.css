@@ -1,0 +1,115 @@
+* {
+  font-family: arial;
+  margin: 0;
+  box-sizing: border-box;
+}
+h1 {
+  text-align: center;
+  font-size: 45px;
+  color: blue;
+}
+.entrer {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 15px;
+}
+.entrer form {
+  width: 450px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 6px;
+  position: relative;
+}
+.entrer form h2 {
+  text-align: center;
+  font-size: 25px;
+}
+.entrer form h3 {
+  text-align: center;
+  font-size: 15px;
+  color: darkgray;
+}
+.entrer form hr {
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  height: 1px;
+  background-color: darkgray;
+}
+.entrer form input {
+  padding: 8px 5px;
+  border-radius: 6px;
+  font-size: 15px;
+  border: 1px solid #ccc;
+}
+.nom-prenom {
+  display: flex;
+  justify-content: space-between;
+}
+.nom-prenom input {
+  width: 49%;
+  margin-bottom: 10px;
+}
+.email {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.date {
+  font-size: 14px;
+  margin-bottom: 3px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.date-naiss {
+  display: flex;
+  justify-content: space-between;
+}
+.date-naiss select {
+  width: 130px;
+  padding: 8px 5px;
+  border-radius: 6px;
+  outline: 0;
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+}
+.sexe {
+  display: flex;
+  justify-content: space-between;
+}
+.sexe span {
+  border: 1px solid #ccc;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 6px;
+}
+.sexe span input {
+  margin-left: 35px;
+}
+.text {
+  font-size: 14px;
+}
+.bouton {
+  text-align: center;
+}
+#z {
+  margin-top: 20px;
+  padding: 8px 50px;
+  background-color: #00a400;
+  color: #fff;
+  margin-bottom: 10px;
+}
+#z:hover {
+  background-color: #0b790b;
+}
+a {
+  text-decoration: none;
+}
+#connect {
+  text-align: center;
+}
